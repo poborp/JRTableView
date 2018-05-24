@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1E18E920B451C30064F776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E18E820B451C30064F776 /* AppDelegate.m */; };
+		EA1E18EC20B451C30064F776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E18EB20B451C30064F776 /* ViewController.m */; };
+		EA1E18F120B451C50064F776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1E18F020B451C50064F776 /* Assets.xcassets */; };
+		EA1E18F420B451C50064F776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1E18F220B451C50064F776 /* LaunchScreen.storyboard */; };
+		EA1E18F720B451C50064F776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E18F620B451C50064F776 /* main.m */; };
+		EA1E18FF20B451E60064F776 /* JRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E18FE20B451E50064F776 /* JRTableView.m */; };
+		EA1E190320B4804B0064F776 /* JRTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E190220B4804B0064F776 /* JRTableHeaderView.m */; };
+		EA1E190620B4805F0064F776 /* JRTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1E190520B4805F0064F776 /* JRTableFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1E18E420B451C30064F776 /* JRTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1E18E720B451C30064F776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1E18E820B451C30064F776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1E18EA20B451C30064F776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA1E18EB20B451C30064F776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA1E18F020B451C50064F776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1E18F320B451C50064F776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1E18F520B451C50064F776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1E18F620B451C50064F776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1E18FD20B451E50064F776 /* JRTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTableView.h; sourceTree = "<group>"; };
+		EA1E18FE20B451E50064F776 /* JRTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTableView.m; sourceTree = "<group>"; };
+		EA1E190120B4804B0064F776 /* JRTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTableHeaderView.h; sourceTree = "<group>"; };
+		EA1E190220B4804B0064F776 /* JRTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTableHeaderView.m; sourceTree = "<group>"; };
+		EA1E190420B4805F0064F776 /* JRTableFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTableFooterView.h; sourceTree = "<group>"; };
+		EA1E190520B4805F0064F776 /* JRTableFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTableFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1E18E120B451C30064F776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1E18DB20B451C30064F776 = {
+			isa = PBXGroup;
+			children = (
+				EA1E18E620B451C30064F776 /* JRTableViewExample */,
+				EA1E190020B453370064F776 /* JRTableView */,
+				EA1E18E520B451C30064F776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1E18E520B451C30064F776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E18E420B451C30064F776 /* JRTableViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1E18E620B451C30064F776 /* JRTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E18E720B451C30064F776 /* AppDelegate.h */,
+				EA1E18E820B451C30064F776 /* AppDelegate.m */,
+				EA1E18EA20B451C30064F776 /* ViewController.h */,
+				EA1E18EB20B451C30064F776 /* ViewController.m */,
+				EA1E18F020B451C50064F776 /* Assets.xcassets */,
+				EA1E18F220B451C50064F776 /* LaunchScreen.storyboard */,
+				EA1E18F520B451C50064F776 /* Info.plist */,
+				EA1E18F620B451C50064F776 /* main.m */,
+			);
+			path = JRTableViewExample;
+			sourceTree = "<group>";
+		};
+		EA1E190020B453370064F776 /* JRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EA1E18FD20B451E50064F776 /* JRTableView.h */,
+				EA1E18FE20B451E50064F776 /* JRTableView.m */,
+				EA1E190120B4804B0064F776 /* JRTableHeaderView.h */,
+				EA1E190220B4804B0064F776 /* JRTableHeaderView.m */,
+				EA1E190420B4805F0064F776 /* JRTableFooterView.h */,
+				EA1E190520B4805F0064F776 /* JRTableFooterView.m */,
+			);
+			path = JRTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1E18E320B451C30064F776 /* JRTableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1E18FA20B451C50064F776 /* Build configuration list for PBXNativeTarget "JRTableViewExample" */;
+			buildPhases = (
+				EA1E18E020B451C30064F776 /* Sources */,
+				EA1E18E120B451C30064F776 /* Frameworks */,
+				EA1E18E220B451C30064F776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRTableViewExample;
+			productName = JRTableViewController;
+			productReference = EA1E18E420B451C30064F776 /* JRTableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1E18DC20B451C30064F776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "tBear Software";
+				TargetAttributes = {
+					EA1E18E320B451C30064F776 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EA1E18DF20B451C30064F776 /* Build configuration list for PBXProject "JRTableViewExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1E18DB20B451C30064F776;
+			productRefGroup = EA1E18E520B451C30064F776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1E18E320B451C30064F776 /* JRTableViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1E18E220B451C30064F776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1E18F420B451C50064F776 /* LaunchScreen.storyboard in Resources */,
+				EA1E18F120B451C50064F776 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1E18E020B451C30064F776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1E190620B4805F0064F776 /* JRTableFooterView.m in Sources */,
+				EA1E18EC20B451C30064F776 /* ViewController.m in Sources */,
+				EA1E18F720B451C50064F776 /* main.m in Sources */,
+				EA1E18FF20B451E60064F776 /* JRTableView.m in Sources */,
+				EA1E190320B4804B0064F776 /* JRTableHeaderView.m in Sources */,
+				EA1E18E920B451C30064F776 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA1E18F220B451C50064F776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1E18F320B451C50064F776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1E18F820B451C50064F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1E18F920B451C50064F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1E18FB20B451C50064F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPD229X4WG;
+				INFOPLIST_FILE = "$(SRCROOT)/JRTableViewExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbearsoft.JRTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA1E18FC20B451C50064F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPD229X4WG;
+				INFOPLIST_FILE = "$(SRCROOT)/JRTableViewExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbearsoft.JRTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1E18DF20B451C30064F776 /* Build configuration list for PBXProject "JRTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1E18F820B451C50064F776 /* Debug */,
+				EA1E18F920B451C50064F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1E18FA20B451C50064F776 /* Build configuration list for PBXNativeTarget "JRTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1E18FB20B451C50064F776 /* Debug */,
+				EA1E18FC20B451C50064F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1E18DC20B451C30064F776 /* Project object */;
+}
